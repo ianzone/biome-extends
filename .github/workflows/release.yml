@@ -22,6 +22,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
-      - run: update_schema.sh
+      - run: bash update_schema.sh
       - run: npm i
       - run: npm run release

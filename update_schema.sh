@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # 遍历当前目录的所有 .json 文件
 for file in *.json; do
   echo "Processing file: $file"
