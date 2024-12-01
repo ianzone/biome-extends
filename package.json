@@ -1,0 +1,29 @@
+{
+  "name": "biome-extends",
+  "version": "1.0.0",
+  "type": "module",
+  "files": ["biome.json"],
+  "exports": {
+    "./base": "./biome.json"
+  },
+  "homepage": "https://github.com/ianzone/biome-extends#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianzone/biome-extends.git"
+  },
+  "description": "Shared biome configs.",
+  "scripts": {
+    "commit": "git add -A && git-cz",
+    "release": "semantic-release"
+  },
+  "keywords": ["biome", "linter", "formatter"],
+  "author": "Zhang Yiheng (a.k.a Ian) <yihengz@outlook.com> (https://github.com/ianzone)",
+  "license": "ISC",
+  "peerDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  },
+  "devDependencies": {
+    "git-cz": "^4.9.0",
+    "semantic-release": "^24.2.0"
+  }
+}
