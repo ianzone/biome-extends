@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ianzone/biome-extends.git"
   },
+  "bugs": "https://github.com/ianzone/biome-extends/issues",
   "description": "Shared biome configs.",
   "scripts": {
     "commit": "git add -A && git-cz",

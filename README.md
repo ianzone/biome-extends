@@ -1,4 +1,4 @@
-### Usage
+## Usage
 ```bash
 npm i -D biome-extends
 ```
