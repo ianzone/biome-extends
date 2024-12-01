@@ -1,7 +1,7 @@
-import type { Options } from 'semantic-release';
-
-// https://semantic-release.gitbook.io/semantic-release/usage/configuration
-const config: Options = {
+/**
+ * @type {import('semantic-release').Options}
+ */
+export default {
   branches: ['main'],
   plugins: [
     '@semantic-release/commit-analyzer',
@@ -10,5 +10,3 @@ const config: Options = {
     '@semantic-release/github',
   ],
 };
-
-export default config;
