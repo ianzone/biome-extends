@@ -1,3 +1,4 @@
+### Usage
 ```bash
 npm i -D biome-extends
 ```
@@ -5,6 +6,7 @@ npm i -D biome-extends
 `biome.json`:
 ```json
 {
-  "extends": "biome-extends/base"
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["biome-extends/base"]
 }
 ```
