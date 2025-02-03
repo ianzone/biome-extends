@@ -22,6 +22,7 @@
     }
   },
   "formatter": {
+    "formatWithErrors": true,
     "lineWidth": 100,
     "indentStyle": "space"
   },
